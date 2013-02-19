@@ -1,3 +1,5 @@
 --> multi.lua <--
-MASTER.Multi1 = {}
-MASTER.Multi2 = {}
+return function(MASTER)
+  MASTER.Multi1 = {}
+  MASTER.Multi2 = {}
+end

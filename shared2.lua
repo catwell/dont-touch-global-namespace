@@ -1,2 +1,4 @@
 --> shared2.lua <--
-function MASTER.Shared:go1() end
+return function(MASTER)
+  function MASTER.Shared:go1() end
+end

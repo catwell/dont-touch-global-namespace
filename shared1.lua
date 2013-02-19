@@ -1,3 +1,4 @@
 --> shared1.lua <--
-MASTER.Shared = {}
-
+return function(MASTER)
+  MASTER.Shared = {}
+end

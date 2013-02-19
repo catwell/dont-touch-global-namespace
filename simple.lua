@@ -1,3 +1,5 @@
 --> simple.lua <--
-MASTER.Simple = {}
-function MASTER:simple() end
+return function(MASTER)
+  MASTER.Simple = {}
+  function MASTER:simple() end
+end
